@@ -469,14 +469,16 @@ function HomePage({ session, onRequireAuth }) {
         <div className="grid two">
           <article className="card">
             <h3>FlexO</h3>
-            <p>A simple system to manage members, attendance, and payments in one place.</p>
+            <p>Manage your entire gym — members, payments, and attendance — in one place.</p>
+            <p>For gym owners</p>
             <GuardedLink className="text-link" to="/flexo" session={session} onRequireAuth={onRequireAuth}>
               View Details
             </GuardedLink>
           </article>
           <article className="card">
             <h3>Velora</h3>
-            <p>A unified system for attendance and real-time tracking.</p>
+            <p>Track attendance and manage operations in real-time with a connected system.</p>
+            <p>For schools</p>
             <GuardedLink className="text-link" to="/velora" session={session} onRequireAuth={onRequireAuth}>
               View Details
             </GuardedLink>
